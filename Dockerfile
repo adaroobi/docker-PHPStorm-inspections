@@ -1,6 +1,6 @@
 FROM php:7.0-alpine
 
-MAINTAINER adaroobi
+LABEL adaroobi
 
 # Install PHP Code Sniffer
 RUN pear install PHP_CodeSniffer
